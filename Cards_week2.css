@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
+img {
+  border-radius: 10px 10px 0 0;
+  position: relative;
+  object-fit: cover;
+  height: 100%;
+  display: block;
+}
+
+.cardbody {
+  width: 350px;
+  margin: 20px 20px 20px 20px;
+  margin-left: 30px;
+  background-color: aqua;
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+}
+
+.card-one {
+  height: 382px;
+}
+
+.textcontainer {
+  height: 134px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: blueviolet;
+}
+h2 {
+  margin: 5px 10px 5px 10px;
+}
+
+span {
+  margin: 5px 10px 10px 15px;
+}
+
+p {
+  margin: 10px 10px 10px 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 6.5px 5px 6.5px 5px;
+  background-color: brown;
+  border-radius: 0 0 10px 10px;
+  height: 52px;
+  
+}
+
+button {
+  border: 5px;
+  font-size: 0.8rem;
+  padding: 0.4rem 0.8rem;
+  transition-duration: 0.4s;
+  background-color: brown;
+}
+
+.btn:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+.iconbutton:hover {
+  background-color: chartreuse;
+  color: white;
+}
+
+/* //Second Card  */
+
+.header-two {
+  position: absolute;
+  top: 120px;
+}
+
+.belowheader-two {
+  position: absolute;
+  top: 160px;
+}
+
+.textcontainer-two {
+  height: 64px;
+}
+.card-two {
+  height: 308px;
+}
+
+/* 3rd Card */
+
+.card-third {
+  border-radius: 10px;
+}
+
+.textcontainer-third {
+  max-height: 64px;
+  
+}
+
+.paragraph-third {
+  padding: 4px;
+}
+
+.header-third {
+  margin: 0px;
+}
+
+.belowheader-third {
+  padding: 6px 0px 0px 0px;
+  display: block;
+  margin: 0px;
+}
+.above-header {
+  display: block;
+  padding: 18px 0px 15px 18px;
+}
+
+/* 4th Card */
+
+.iconbutton-fourth{
+    visibility: hidden;
+}
+
+/* 5th card */
+
+.btn-fifth{
+    visibility: hidden;
+}
+
+/* 6th Card */
+.sixthimage{
+
+    border-radius: 0px;
+
+}
+.card-sixth{
+ height: 110px;
+ position: relative;
+}
+
+.textcontainer-sixth{
+
+ height: 110px;
+ width: 239.9px;
+ position: absolute;
+ top: 0px;
+ right:0px;
+}
